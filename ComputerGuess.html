@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="猜數字2">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>1A2B猜數字遊戲II(電腦自己猜)</title>
+    <script type="text/javascript" src="bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="background">
+        <!-- Main background -->
+        <div>
+            <div class="headrow">
+                <span>電腦猜題歷程 (<a href="#" id="getAns">答案</a>)</span>
+            </div>
+
+            <div>
+                <textarea rows="10" cols="40" id="tx_Result" class="result" readonly>(464) 電腦已猜到，數字為:8364,共花費4次</textarea>
+            </div>
+        </div>
+
+        <div id="main">
+            <div class="row">
+                <button class="btn-style guess" value="ComGuess">開始猜題</button>
+                <button class="btn-style reset" value="Reset" id="reset">Reset</button>
+                <button class="btn-style batch" value="BatchGuess">連續猜題</button>
+                <input text="text" class="iptxt" maxlength="4" id="totalGuessCount" value="500">
+                <span class="txtlabel">次</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

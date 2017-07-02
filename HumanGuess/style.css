@@ -1,0 +1,83 @@
+body {
+  background:#777;
+}
+
+#background {
+    width:230px;
+    height:480px;
+    background:#003377;
+    margin:50px auto;
+    -webkit-animation:bgChange 2s 2s alternate infinite;
+    transition: all 2s ease;
+    border: 2px solid #fff;
+    padding:10px 5px;
+  text-align:center;
+}
+
+button {
+  width:60px;
+  height:40px;
+  //border:0;
+  background-color:#666666;
+  color:#fff;
+  border: 2px solid #DFEBED;
+  border-radius: 5px;
+}
+
+.btn-style {
+  //width:10px;
+  font-size:24px;
+}
+
+.btn-style.reset {
+  width:125px;
+  color:#EEEE00;
+}
+
+.btn-style.reset.highlight {
+  background-color:#FF0000;
+}
+
+.btn-style.guess {
+  color:#00FFFF;
+  width:125px;
+}
+
+.btn-style.delete {
+    font-weight:bold;
+    color:#FF0000;
+}
+
+#getAns {
+  color:yellow;
+  font-size:7px;
+}
+
+.rows {
+    margin-top:10px;
+}
+
+
+.iptxt {
+  width:43px;
+  height:30px;
+  font-size:24px;
+  text-align:center;
+  color:#fff;
+  background-color:#0000FF;
+  border: 1px solid #DFEBED;
+  
+  
+}
+
+.headrow{
+  color:#fff;
+  font-size:16px;
+  margin:5px 0;
+}
+
+.headrow>span {
+  margin:0px 15px 0px 0px;
+}
+
+

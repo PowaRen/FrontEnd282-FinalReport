@@ -1,0 +1,89 @@
+body {
+    background: #777;
+}
+
+#background {
+    width: 315px;
+    height: 275px;
+    background: #003377;
+    margin: 50px auto;
+    -webkit-animation: bgChange 2s 2s alternate infinite;
+    transition: all 2s ease;
+    border: 2px solid #fff;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+button {
+    width: 60px;
+    height: 40px; //border:0;
+    background-color: #666666;
+    color: #fff;
+    border: 2px solid #DFEBED;
+    border-radius: 5px;
+}
+
+.btn-style {
+    //width:10px;
+    font-size: 24px;
+}
+
+.btn-style.reset {
+    width: 120px;
+    color: #EEEE00;
+}
+
+.btn-style.reset.highlight {
+    background-color: #FF0000;
+}
+
+.btn-style.guess {
+    color: #00FFFF;
+    width: 180px;
+}
+
+.btn-style.delete {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.btn-style.batch {
+    margin-top: 5px;
+    width: 180px;
+    color: #fff;
+}
+
+#getAns {
+    color: yellow;
+    font-size: 7px;
+}
+
+.row {
+    padding-left: 5px;
+    margin-top: 2px;
+    text-align: left;
+}
+
+.iptxt {
+    width: 65px;
+    height: 35px;
+    font-size: 28px;
+    text-align: center;
+    border: 0px solid #DFEBED;
+    background: #FFFFBB;
+}
+
+.txtlabel {
+    color: #fff;
+    font-size: 24px;
+}
+
+.headrow {
+    color: #fff;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.headrow>span {
+    margin: 0px 15px 0px 0px;
+}

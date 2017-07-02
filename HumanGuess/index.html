@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="猜數字">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>1A2B猜數字遊戲I</title>
+    <script type="text/javascript" src="bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="background">
+        <!-- Main background -->
+        <div class="resultrow">
+            <input type="text" id="inputNum_1" class="iptxt" readonly>
+            <input type="text" id="inputNum_2" class="iptxt" readonly>
+            <input type="text" id="inputNum_3" class="iptxt" readonly>
+            <input type="text" id="inputNum_4" class="iptxt" readonly>
+        </div>
+        <hr>
+        <div class="resulthistory">
+            <div class="headrow">
+                <span>No.</span>
+                <span>輸入</span>
+                <span>結果 (<a href="#" id="getAns">答案</a>)</span>
+            </div>
+
+            <div class="resultlist">
+                <textarea rows="10" cols="24" id="tx_Result" class="result" readonly></textarea>
+            </div>
+        </div>
+
+        <div id="main">
+            <div class="first-row">
+                <button class="btn-style delete"><</button>
+                <button class="btn-style guess">Guess</button>
+                <!--<button class="btn-style num-bg num">?</button>-->
+            </div>
+
+            <div class="rows">
+                <button value="1" class="btn-style">1</button>
+                <button value="2" class="btn-style">2</button>
+                <button value="3" class="btn-style">3</button>
+            </div>
+
+            <div class="rows">
+                <button value="4" class="btn-style">4</button>
+                <button value="5" class="btn-style">5</button>
+                <button value="6" class="btn-style">6</button>
+            </div>
+
+            <div class="rows">
+                <button value="7" class="btn-style">7</button>
+                <button value="8" class="btn-style">8</button>
+                <button value="9" class="btn-style">9</button>
+            </div>
+
+            <div class="rows">
+                <button class="btn-style" id="zero">0</button>
+                <button class="btn-style reset" id="reset">Reset</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
